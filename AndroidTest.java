@@ -24,7 +24,7 @@ public void setUp() throws Exception {
 URL netURL=new URL("http://127.0.0.1:4723/wd/hub");
 File classpathRoot = new File(System.getProperty("user.dir"));
 File appDir = new File(classpathRoot, "Application");
-File app = new File(appDir, "jionews25.apk");
+File app = new File(appDir, "testnews.apk");
 DesiredCapabilities capabilities = new DesiredCapabilities();
 //capabilities.setCapability(CapabilityType.BROWSER_NAME, "");
 capabilities.setCapability("deviceName","Android");
