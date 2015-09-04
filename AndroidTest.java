@@ -31,7 +31,7 @@ capabilities.setCapability("deviceName","Android");
 capabilities.setCapability("platformVersion", "4.4.2");
 capabilities.setCapability("platformName","Android");
 capabilities.setCapability("app", app.getAbsolutePath());
-capabilities.setCapability("appPackage", "com.jio.news");
+capabilities.setCapability("appPackage", "com.test.news");
 capabilities.setCapability("appActivity", "activities.LoginActivity");
 driver = new AppiumDriver(netURL, capabilities);
 	
